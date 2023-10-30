@@ -25,7 +25,7 @@ public class Main {
             if(c == '('){
                 count++;
             } else if (count == 0) {
-                return  "NO"; // 시작이 '(' 로 시작안될 때
+                return  "NO"; // 시작이 '(' 로 시작 안될 때
             } else{
                 count--; // 그 외
             }
